@@ -38,10 +38,35 @@ p{
     letter-spacing: -0.01em;
 }
 
+.fill-button{
+    display: inline-flex; /* width값을 주고 텍스트 가운데 배치를 위해 */ 
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    width: 140px;
+    height: 48px;
+    color: #fff;
+    background-color: #3040C4;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: -0.05em;
+    font-weight: 700;
+    transition: opacity 300ms ease-in-out;
+}
+
+.fill-button.inverted{
+    background-color: #fff;
+    color: #3040C4;
+}
+
+.fill-button:hover{
+    opacity: 0.5;
+}
+
 /* landing */
 .landing{
-    height: 100vh;
     background-color: #FDDED8;
+    text-align: center;
 }
 
 .landing-content{
@@ -55,11 +80,11 @@ p{
 
 .landing-title{
     margin-bottom: 24px;
-    font-weight: 700;
     font-size: 40px;
     line-height: 1;
     letter-spacing: -0.05em;
     text-align: center;
+    color: #2B292D;
 }
 
 .landing-desc{
@@ -70,43 +95,19 @@ p{
     line-height: 1.375;
     letter-spacing: -0.01em;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
 }
 
-
-.button-group{
+.landing .button-group{   /* 버튼 가운데 정렬 */
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
-
-.fill-button{
-    display: inline-block;
-    width: 140px;
-    height: 48px;
-    border-radius: 2px;
-    color: #FFFFFF;
-    background-color: #3040C4;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 1.6;
-    letter-spacing: -0.05em;
-    margin-right: 4px;
+/* apply now 버튼 선택자 */
+.landing .button-group .fill-button:first-child{
+    margin-right: 8px;
 }
-
-.fill-button.inverted{
-    right: 16px;
-    bottom: 154px;
-    width: 140px;
-    height: 48px;
-    border-radius: 2px;
-    background-color: #FFFFFF;
-    color: #3040C4;
-    margin-left: 4px;
-}
-
 
 /* 768px 이상 (Desktop) */
 @media screen and (min-width: 768px) {
@@ -117,9 +118,9 @@ p{
     }
 
     /* Landing */
-    .landing-title{
-        font-size: 70px;
-        line-height: 1.0285714286;
+    .landing-content{
+        height: auto;
+        padding: 120px 0;
     }
 
     .fill-button{
@@ -129,11 +130,18 @@ p{
         line-height: 1.5555555556;
     }
 
-    .fill-button.inverted{
-        width: 160px;
-        height: 56px;
-        font-size: 18px;
-        line-height: 1.5555555556;
+    .landing-title{
+        margin-bottom: 32px;
+        font-size: 70px;
+        line-height: 1.0285714286;
+    }
+
+    .landing-desc{
+        margin-bottom: 32px;
+    }
+
+    .landing .button-group .fill-button:first-child{
+        margin-right: 16px;
     }
 }
 
