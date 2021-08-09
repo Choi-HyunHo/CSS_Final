@@ -40,7 +40,6 @@ p{
 
 /* landing */
 .landing{
-    width: 320px;
     height: 100vh;
     background-color: #FDDED8;
 }
@@ -55,8 +54,6 @@ p{
 }
 
 .landing-title{
-    width: 290px;
-    height: 120px;
     margin-bottom: 24px;
     font-weight: 700;
     font-size: 40px;
@@ -81,6 +78,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 
@@ -95,7 +93,6 @@ p{
     font-size: 15px;
     line-height: 1.6;
     letter-spacing: -0.05em;
-    text-align: center;
     margin-right: 4px;
 }
 
@@ -117,6 +114,26 @@ p{
     p{
         font-size: 22px;
         line-height: 1.3636363636;
+    }
+
+    /* Landing */
+    .landing-title{
+        font-size: 70px;
+        line-height: 1.0285714286;
+    }
+
+    .fill-button{
+        width: 160px;
+        height: 56px;
+        font-size: 18px;
+        line-height: 1.5555555556;
+    }
+
+    .fill-button.inverted{
+        width: 160px;
+        height: 56px;
+        font-size: 18px;
+        line-height: 1.5555555556;
     }
 }
 
