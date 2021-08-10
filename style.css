@@ -112,13 +112,7 @@ p{
 /* Service */
 .service{
     background-color: #F4F5F7;
-}
-
-.service-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 80px 0;
 }
 
 .service-title{
@@ -130,13 +124,8 @@ p{
     color: #2B292D;
 }
 
-.service-desc{
+.service .col-12:first-child{
     margin-bottom: 40px;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: -0.01%;
-    font-weight: 400;
-    color: #2B292D;
 }
 
 /* 768px 이상 (Desktop) */
@@ -172,6 +161,17 @@ p{
 
     .landing .button-group .fill-button:first-child{
         margin-right: 16px;
+    }
+
+    /* Service */
+    .service-title{
+        font-size: 26px;
+        line-height: 1.3076923076;
+        letter-spacing: -0.04em;
+    }
+
+    .service .col-12:first-child{
+        margin-bottom: 0;
     }
 }
 
