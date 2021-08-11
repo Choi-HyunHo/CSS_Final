@@ -149,6 +149,72 @@ p{
     letter-spacing: -0.04em;
     color: #2B292D;
 }
+
+/* Program image */
+.campus{
+    background-image: url(./assets/img-fulltime-campus.png);
+    width: 290px;
+    height: 291px;
+    background-size: 142.21px 195px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.campus-text{
+    font-size: 18px;
+    line-height: 1.3333333333;
+    letter-spacing: -0.02em;
+    color: #2B292D;
+}
+
+.remote{
+    background-image: url(./assets/img-fulltime-remote.png);
+    width: 290px;
+    height: 291px;
+    background-size: 142.21px 195px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.remote-text{
+    font-size: 18px;
+    line-height: 1.3333333333;
+    letter-spacing: -0.02em;
+    color: #2B292D;
+}
+
+.parttime-flex{
+    background-image: url(./assets/img-parttime-flex.png);
+    width: 290px;
+    height: 291px;
+    background-size: 142.21px 195px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.parttime-flex-text{
+    font-size: 18px;
+    line-height: 1.3333333333;
+    letter-spacing: -0.02em;
+    color: #2B292D;
+}
+
+.program-image{
+    margin-top: 32px;
+}
+
 /* 768px 이상 (Desktop) */
 @media screen and (min-width: 768px) {
     /* Reset CSS */
@@ -213,6 +279,14 @@ p{
         font-size: 56px;
         line-height: 1;
         letter-spacing: -0.04em;
+    }
+
+    /* Program-image */
+    .program-image{
+        margin-top: 72px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
     }
 }
 
