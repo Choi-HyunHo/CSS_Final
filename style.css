@@ -200,6 +200,13 @@ p{
 }
 
 /* Curriculum */
+.section-title{
+    font-size: 34px;
+    line-height: 1.0588235294;
+    letter-spacing: -0.03em;
+    margin-bottom: 24px;
+}
+
 .curriculum .row:first-child { 
     margin-bottom: 48px;
 }
@@ -278,7 +285,7 @@ p{
         margin-bottom: 0;
       }
     
-      .service-title {
+    .service-title {
         font-size: 26px;
         line-height: 1.3076923077;
       }
@@ -317,6 +324,33 @@ p{
     }
 
     /* Curriculum */
+    .curriculum .row:first-child {
+        margin-bottom: 24px;
+    }
+    
+    .curriculum .row:last-child .col-12:first-child {
+        margin-bottom: 96px;
+    }
+    
+    .curriculum .section-desc {
+        margin-bottom: 72px;
+    }
+    
+    .curriculum-image {
+        display: block;
+    }
+    
+    .curriculum-image img{
+        display: block;
+        width: 100%;
+        max-width: 425px;
+        height: auto;
+    }
+    
+    .curriculum-detail-desc {
+        font-size: 18px;
+        line-height: 1.4444444444;
+    }
 
 }
 
