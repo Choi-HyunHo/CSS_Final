@@ -212,7 +212,7 @@ p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: -0.01em;
-    color: #009B4D;
+    color: #0189D1;
 }
 
 .curriculum-title{
@@ -230,6 +230,11 @@ p{
 
 .curriculum .col-md-6:first-child{
     margin-bottom: 40px;
+}
+
+.curriculum .col-md-6:last-child{
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -314,8 +319,12 @@ p{
     }
 
     /* Curriculum */
+    .curriculum{
+        background-image: url(./assets/img-curriculum.png);
+        background-repeat: no-repeat;
+        background-size: 450px 450px; 
+    }
 
-    
 }
 
 /* custom grid system - Fix container width */
