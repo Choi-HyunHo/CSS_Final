@@ -150,69 +150,55 @@ p{
     color: #2B292D;
 }
 
-/* Program image */
-.campus{
-    background-image: url(./assets/img-fulltime-campus.png);
-    width: 290px;
-    height: 291px;
-    background-size: 142.21px 195px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+/* Program card */
+.program .row:first-child{
+    /* Program 과 Program-card의 간격 */
+    margin-bottom: 32px;
 }
 
-.campus-text{
+.program-card img{
+    display: block;
+    width: auto;
+    height: 195px;
+    margin: 0 auto 16px; /* 이미지 가운데 배치 */
+}
+
+.program-card strong{
     font-size: 18px;
     line-height: 1.3333333333;
     letter-spacing: -0.02em;
-    color: #2B292D;
+    transition: color 500ms ease-in-out;
 }
 
-.remote{
-    background-image: url(./assets/img-fulltime-remote.png);
-    width: 290px;
-    height: 291px;
-    background-size: 142.21px 195px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+.program-card{
+    display: block;
+    padding: 24px 0 32px;
+    border-radius: 8px;
+    background-color: #Fff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), 
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    transition: background-color 300ms ease-in-out,
+    box-shadow 300ms ease-in-out;
 }
 
-.remote-text{
-    font-size: 18px;
-    line-height: 1.3333333333;
-    letter-spacing: -0.02em;
-    color: #2B292D;
+.program-card:hover{
+    background-color: #3141C5;
+    box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
 }
 
-.parttime-flex{
-    background-image: url(./assets/img-parttime-flex.png);
-    width: 290px;
-    height: 291px;
-    background-size: 142.21px 195px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+
+.program-card:hover{
+    color: white;
 }
 
-.parttime-flex-text{
-    font-size: 18px;
-    line-height: 1.3333333333;
-    letter-spacing: -0.02em;
-    color: #2B292D;
+.program .col-md-4{
+    /* image-card 사이의 간격 */
+    margin-bottom: 20px;
 }
 
-.program-image{
-    margin-top: 32px;
+.program .col-md-4:last-child{
+    margin-bottom: 0;
 }
 
 /* 768px 이상 (Desktop) */
@@ -281,12 +267,17 @@ p{
         letter-spacing: -0.04em;
     }
 
-    /* Program-image */
-    .program-image{
-        margin-top: 72px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
+    /* Program card */
+    .program .row:first-child{
+        margin-bottom: 72px;
+    }
+    .program-card strong{
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .program-card img{
+        margin-bottom: 24px;
     }
 }
 
