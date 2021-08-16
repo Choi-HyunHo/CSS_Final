@@ -24,6 +24,6 @@
 7. Footer
 
 ## 참고
-- https://edu.goorm.io/learn/lecture/20583/%EA%B9%80%EB%B2%84%EA%B7%B8%EC%9D%98-html-css%EB%8A%94-%EC%9E%AC%EB%B0%8C%EB%8B%A4
+- https://www.figma.com/file/dyvtvgfpLx0vBMgAB15NIm/%5B%EA%B9%80%EB%B2%84%EA%B7%B8%EC%9D%98-CSS%EB%8A%94-%EC%9E%AC%EB%B0%8C%EB%8B%A4%5D-Final-Project
 ## 참고화면
 ![캡처](https://user-images.githubusercontent.com/87301268/128701772-2096e4c5-7b23-4b5c-a6e1-59bb30def1dd.JPG)
